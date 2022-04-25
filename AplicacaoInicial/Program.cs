@@ -37,7 +37,10 @@ namespace TiposPrimitivos
             //é possível converter o enumerador para um número inteiro:
             int situacao_int = (int)EnumeradorTeste.A;
             //recebe uma cadeia de caracteres
-            string v_string = "Jonathan Vinícius Suter";            
+            string v_string = "Jonathan Vinícius Suter";
+                        
+
+
         }
         enum EnumeradorTeste
         {

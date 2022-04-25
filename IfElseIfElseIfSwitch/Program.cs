@@ -20,6 +20,11 @@ namespace IfElseIfElseIfSwitch
 
             resultadoInt = a1 > b1;
 
+            if (a1 > b1) 
+            {
+                Console.WriteLine("a1 é maior que b1:");
+            }
+
             //if else
             if (resultadoInt) 
             {

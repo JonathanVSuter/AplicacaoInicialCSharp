@@ -10,7 +10,7 @@ namespace OperadoresLogicos
 
             bool resultadoInt;
 
-            resultadoInt = ((a1 > b1) && (a1 <= 200));
+            resultadoInt = ((a1 > b1) && (a1 <= 200)) && false;
             Console.WriteLine("resultadoInt com o operador AND " + resultadoInt);
 
             resultadoInt = (a1 > b1) || (a1 > 100);
