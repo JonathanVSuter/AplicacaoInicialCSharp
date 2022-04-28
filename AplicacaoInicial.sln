@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAritmeticos", "Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresRelacionais", "OperadoresRelacionais\OperadoresRelacionais.csproj", "{EC93241C-A344-445E-9365-AFE87FD968B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{9DE46840-F8B8-4E43-ACB6-9694E8A56451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{9DE46840-F8B8-4E43-ACB6-9694E8A56451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElseIfElseIfSwitch", "IfElseIfElseIfSwitch\IfElseIfElseIfSwitch.csproj", "{2F1FF733-0707-4D34-8583-A9114DC6206E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfElseIfElseIfSwitch", "IfElseIfElseIfSwitch\IfElseIfElseIfSwitch.csproj", "{2F1FF733-0707-4D34-8583-A9114DC6206E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LacosDeRepeticao", "LacosDeRepeticao\LacosDeRepeticao.csproj", "{60E23597-BF41-4B6E-A0CF-6B5588E013F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetoresMatrizes", "VetoresMatrizes\VetoresMatrizes.csproj", "{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{2F1FF733-0707-4D34-8583-A9114DC6206E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F1FF733-0707-4D34-8583-A9114DC6206E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F1FF733-0707-4D34-8583-A9114DC6206E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E23597-BF41-4B6E-A0CF-6B5588E013F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E23597-BF41-4B6E-A0CF-6B5588E013F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E23597-BF41-4B6E-A0CF-6B5588E013F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E23597-BF41-4B6E-A0CF-6B5588E013F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
