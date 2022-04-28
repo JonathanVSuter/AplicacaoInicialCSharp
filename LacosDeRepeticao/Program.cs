@@ -29,7 +29,7 @@ namespace LacosDeRepeticao
             //mostre na tela o valor de "a" enquanto este for maior que zero.
             do
             {
-                Console.WriteLine("Valor de j: " + a);
+                Console.WriteLine("Valor de a: " + a);
                 a--;
             }
             while (a > 0);
