@@ -10,7 +10,6 @@ namespace VetoresMatrizes
             char[] vetorChar = new char[10];
 
 
-
         }
     }
 }
