@@ -40,10 +40,6 @@ namespace VetoresMatrizes
             } 
             while (iVetorNomes < vetorNomes.Length);
 
-            //preenchendo um vetor usando foreach (objeto, nesse caso um vetor de strings)
-
-
-
 
         }
     }
