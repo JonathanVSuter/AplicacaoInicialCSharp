@@ -27,9 +27,10 @@ namespace ContarElementosRepetidos
                 {
                     if (i != j) 
                     {
-                        if (vetorEntradas[i] == vetorEntradasCopia[j])
+                        if (vetorEntradas[i] == vetorEntradasCopia[j] && marcarEntradasRepetidas[j] == 0)
                         {
                             contarNumerosRepetidos[i]++;
+                            marcarEntradasRepetidas[i] = 1;
                             marcarEntradasRepetidas[j] = -1;
                         }
                     }                    
@@ -38,7 +39,7 @@ namespace ContarElementosRepetidos
 
             for (int i = 0; i < contarNumerosRepetidos.Length; i++ ) 
             {
-                if (contarNumerosRepetidos[i] > 0) 
+                if (contarNumerosRepetidos[i] > 0 && marcarEntradasRepetidas[i] > 0) 
                 {
                     Console.WriteLine($"O elemento {vetorEntradas[i]} na posição {i} repete {contarNumerosRepetidos[i]} vezes.");
                 }
