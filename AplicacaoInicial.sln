@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LacosDeRepeticao", "LacosDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetoresMatrizes", "VetoresMatrizes\VetoresMatrizes.csproj", "{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncoesLocais", "FuncoesLocais\FuncoesLocais.csproj", "{01A2CB50-821F-44CB-906D-5B1830454B99}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContarElementosRepetidos", "ContarElementosRepetidos\ContarElementosRepetidos.csproj", "{ED840AC9-2DC8-41C4-A995-280A36E84599}"
 EndProject
 Global
@@ -53,10 +55,6 @@ Global
 		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8A6CD0-18AE-49F4-B128-5F25F0EF1390}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED840AC9-2DC8-41C4-A995-280A36E84599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED840AC9-2DC8-41C4-A995-280A36E84599}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED840AC9-2DC8-41C4-A995-280A36E84599}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED840AC9-2DC8-41C4-A995-280A36E84599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
