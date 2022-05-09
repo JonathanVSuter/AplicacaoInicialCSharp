@@ -5,7 +5,8 @@ namespace VetoresMatrizes
     class Program
     {
         static void Main(string[] args)
-        {
+        {        
+
             int[] vetorInteiro = new int[50];
             char[] vetorChar = new char[10];
             int iVetorChar = 0;
