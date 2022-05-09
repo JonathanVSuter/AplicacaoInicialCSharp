@@ -8,7 +8,8 @@ namespace FuncoesLocais
         static void Main(string[] args)
         {
             //a função RetornarTextoParamostrar recebe um parâmetro do tipo string, esta fará o processamento e retornará o valor (do tipo string).
-            Console.WriteLine(RetornarTextoParamostrar("Hello World!"));
+            string texto = RetornarTextoParamostrar("Hello World!");
+            Console.WriteLine(texto);
 
             //quando não há parâmetros especificados, a função não recebe parâmetros em sua chamada
             //ainda nesse caso, ela não possui retorno;
@@ -30,6 +31,10 @@ namespace FuncoesLocais
             entrada = MontarString(retorno);
 
             Console.WriteLine("vetor de char reconvertido em String: " + entrada);
+        }
+        static void MostrarUmTexto(string texto)
+        {
+            Console.WriteLine(texto);
         }
 
         //esta função retorna um texto, interpolado com o parâmetro passado.
@@ -97,6 +102,6 @@ namespace FuncoesLocais
             }
 
             return retorno.ToString();
-        }
+        }        
     }
 }
